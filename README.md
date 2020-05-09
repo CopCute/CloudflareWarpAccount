@@ -12,7 +12,7 @@ Vào trang https://repl.it/ -> Start coding -> BASH -> Create repl (Như hình m
 ## Download wgcf tool
 Cửa sổ mới xuất hiện, gõ vào vùng màu đen (Terminal) bên phải dòng lệnh như bên dưới và Enter. Dòng lệnh chạy thành công, nhìn vào panel bên trái sẽ thấy có 1 file **wgcf** xuất hiện
 ``` BASH
-wget -O wgcf https://github.com/copgamingtq/CloudflareWarpAccount/releases/download/v1.0.5/wgcf_1.0.5_linux_386; chmod +x wgcf
+wget -O wgcf https://github.com/CopCute/CloudflareWarpAccount/releases/download/v1.0.5/wgcf_1.0.5_linux_386; chmod +x wgcf
 ```
 
 ![](https://images.viblo.asia/b6533d57-e994-45c4-8c6a-19781a7ce652.png)
