@@ -1,7 +1,6 @@
-# Link bài viết gốc của mình trên viblo.asia https://viblo.asia/p/huong-dan-su-dung-account-vpn-1111-cua-dien-thoai-len-pc-ByEZkQko5Q0
 Hello everyone,
 Cách đây một thời gian, mình đã từng chia sẻ một video hướng dẫn sử dụng VPN 1.1.1.1 trên PC với phần mềm Wireguard. Có một số câu hỏi như **Làm sao để sử dụng account 1.1.1.1 của điện thoại lên máy tính?**, **Làm sao điểm tra dung lượng còn lại cho account trên máy tính?**. Tại thời điểm đó thì mình chưa có câu trả lời vì mình không biết các APIs để truy vấn các thông tin đó. Tuy nhiên, cách đây một vài hôm, Cloudflare đã update APIs lên version mới và đã hỗ trợ các tính năng nói trên. Bây giờ, mình sẽ hướng dẫn cho các bạn cách để lấy account 1.1.1.1 trên điện thoại và đưa qua sử dụng trên máy tính
-Ở bài chia sẻ này, chúng ta sẽ sử dụng repository này https://github.com/ViRb3/wgcf. Mình sẽ trả lời lần lượt từng câu hỏi trên:
+Ở bài chia sẻ này, chúng ta sẽ sử dụng repository này https://github.com/copgamingtq/CloudflareWarpAccount. Mình sẽ trả lời lần lượt từng câu hỏi trên:
 
 # Làm sao để sử dụng account 1.1.1.1 của điện thoại lên máy tính?
 
@@ -13,7 +12,7 @@ Vào trang https://repl.it/ -> Start coding -> BASH -> Create repl (Như hình m
 ## Download wgcf tool
 Cửa sổ mới xuất hiện, gõ vào vùng màu đen (Terminal) bên phải dòng lệnh như bên dưới và Enter. Dòng lệnh chạy thành công, nhìn vào panel bên trái sẽ thấy có 1 file **wgcf** xuất hiện
 ``` BASH
-wget -O wgcf https://github.com/ViRb3/wgcf/releases/download/v1.0.5/wgcf_1.0.5_linux_386; chmod +x wgcf
+wget -O wgcf https://github.com/copgamingtq/CloudflareWarpAccount/releases/download/v1.0.5/wgcf_1.0.5_linux_386; chmod +x wgcf
 ```
 
 ![](https://images.viblo.asia/b6533d57-e994-45c4-8c6a-19781a7ce652.png)
